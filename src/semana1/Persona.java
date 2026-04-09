@@ -1,4 +1,5 @@
 package semana1;
+import semana1.util.Util;
 
 public class Persona {
 
@@ -18,6 +19,8 @@ public class Persona {
 		persona1.edad = 22;
 		
 		persona1.mostrarDatos();
+		
+		Util.saludar();
 
 	}
 
